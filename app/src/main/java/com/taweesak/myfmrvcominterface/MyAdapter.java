@@ -6,9 +6,14 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-//Todo Step6 ==> Create Adapter Class
-//Todo Step8 ==> extend Rv Adapter
+//Todo Step 6 ==> Create Adapter Class
+//Todo Step 8 ==> extend Rv Adapter
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.VH>{
+    // create Filed
+        // - Listener , - Context , - ArrayList
+
+    // create Method
+
     @NonNull
     @Override
     public VH onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

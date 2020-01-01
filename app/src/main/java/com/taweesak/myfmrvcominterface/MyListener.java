@@ -1,7 +1,7 @@
 package com.taweesak.myfmrvcominterface;
 
-//Todo Step9 ==> Create Interface Class
+//Todo Step 9 ==> Create Interface Class
 public interface MyListener {
-    //Todo Step10 ==> Create method + Obj MyChidModel Class
+    //Todo Step 10 ==> Create method + Obj MyChidModel Class
     void myCallback(MyChidModel myChidModel);
 }

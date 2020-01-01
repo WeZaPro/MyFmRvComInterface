@@ -6,18 +6,27 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-//Todo Step2 ==> Create FM A
+//Todo Step 2 ==> Create FM A
 public class FragmentA extends Fragment {
 
+    // Set data ArrayList
+    // Set Rv Layout
+    // Set Adapter
+    // set Listener (Interface)
+    // onAttact Listener
+    // onDetact Listener
+
     public FragmentA() {
-        // Required empty public constructor
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_a, container, false);
+
+        // check v = null
+
+        View v = inflater.inflate(R.layout.fragment_a, container, false);
+        return v;
     }
 
 }
