@@ -11,10 +11,9 @@ public class MyChidModel extends MyParentModel{ //Todo Step 14 extend MyParentMo
     public MyChidModel() {
     }
 
+    public MyChidModel(double rate, String country, int imageFlag) {
+        super(rate, country, imageFlag);
 
-    public MyChidModel(double rate, double inputValue) {
-        super(rate);
-        setResult(rate,inputValue);
     }
 
     private void setResult(double rate, double inputValue) {
